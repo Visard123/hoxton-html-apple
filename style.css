@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+image{
+    width: 100%;
+    
+   
+}
+html{
+    scroll-behavior: smooth;
+    font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; ;
+}
+main{
+    display: grid;
+    grid-auto-flow: row;
+    background-color: #f5f5f7;
+    grid-gap: 10px;
+  
+}
+header{
+   position: fixed;
+    background-color: #333333;
+    height: 46px;
+    width: 100vw;
+   
+}
+
+.lists{
+   display: grid;
+   grid-auto-flow: column;
+   list-style: none;
+   justify-content: center;
+   gap: 35px;
+   padding-top: 13px;
+   text-decoration: none;
+  
+
+}
+.lists a{
+    color:#b8b6b6;
+    text-decoration: none;
+    font-size: 13.4px;
+  
+}
+header .lists a:hover{
+    color: white;
+}
+
+.apple-logo{
+    width: 15px;
+    height: 15px;
+    background-color: #333333;
+    
+  
+}
+header .search-logo{
+    width: 15px;
+    height: 15px;
+    background-color: #333333;
+    padding-top: 4px;
+         
+}
+header .bag-logo{
+    width: 15px;
+    height: 15px;
+    background-color: #333333;
+         
+}
+.section-1{
+ padding-top: 60px;
+ text-align: center;
+ height: 80px;
+}
+.section-1 p{
+    color: #404042;
+font-size: 14px;
+text-decoration: none;
+}
+.section-1 a{
+    text-decoration: none;
+    color:#1673d0 ;
+    
+}
+.section-2{
+    display: grid;
+    background-color: #fbfbfd ;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 40px;
+    height: 90vh;
+    
+}
+.section-2 a{
+    text-decoration: none;
+   
+}
+
+.section-2 h1 {
+    font-size: 50px;
+    text-align: center;
+    
+
+
+}
+.section-2 h1 a{
+    color:#1d1d1f;
+    
+}
+.section-2 h2 a{
+    color: black;
+}
+
+.section-2 h3{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 10px;
+    gap: 10px;
+}
+.section-2 h3 a{
+    
+    color:#1673d0 ;
+ 
+}
+.section-2 img{
+    padding-top: 40px;
+    background: none;
+   
+    
+}
+.section-2 h2{
+    
+   justify-self: center;
+    padding-left: 0px;
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+     
+ 
+}
+.section-2 h3{
+    
+    justify-self: center;
+    
+    font-size: 20px;
+    font-weight: 100;
+    gap: 40px;
+}
+.section-3 {
+
+background-image: url(/images/hero_iphone_13.jpg);
+background-size: cover;
+background-position: center;
+ background-color: #35283c;
+ height: 90vh;
+ text-align: center;
+ padding-top: 50px;
+}
+.section-3 h2 a{
+    text-decoration: none;
+   font-size: 50px;
+   text-decoration: none;
+   color: white;
+  
+}
+.section-3 h2{
+    padding-bottom: 10px;
+    color: white;
+}
+.section-3 h3{
+    
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.section-3 h3 a{
+    text-decoration: none;
+    color:#f4bae2;
+    padding-bottom: 10px;
+   
+    
+}
+.section-3 li a{
+    text-decoration: none;
+  
+    
+}
+.section-3 ul{
+ list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 10px;
+
+}
+.section-3 ul a{
+    
+    text-decoration: none;
+    color: rgb(70, 103, 252);
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+.section-4{
+ background-image: url(/images/hero_macbookpro.jpg);
+    
+ background-size: cover;
+ background-position: center;
+ background-color: #35283c;
+ height: 90vh;
+ position:;
+ z-index: ;
+ text-align: center;
+ padding-top: 35px;
+
+  
+}
+
+
+
+
+.section-5{
+    display: grid;
+    grid-auto-flow: row;
+    background-color: #ffffff;
+    padding: 10px;
+    gap: 10px;
+}
+ .section-5 img{
+     width: 100%;
+ }
+.section-5 .first-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+ gap: 10px;
+
+}
+.section-5 .first-row .homepad-mini{
+    background-image: url(/images/tile_homepod_mini.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+.section-5 .first-row .airpods{
+    background-image: url(/images/tile_airpods__.jpg);
+    background-size: cover;
+    background-position: center;
+  height: 600px;
+   
+}
+.section-5 .second-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ width: 100%;
+ gap: 10px;
+}
+
+
+.section-5 .second-row .watch{
+    background-image: url(/images/tile_watch__.jpg);
+    background-size: cover;
+    background-position: center;
+  height: 600px;
+}
+.section-5 .watch img{
+   width: 150px;
+   height: ;
+  margin-left: 250px;
+  padding-top: px;
+    
+}
+.section-5 .watch h4{
+    color: rgb(230, 109, 109);
+    text-align: center;
+    padding-top: 40px;
+}
+.section-5 .second-row .arcade{
+    background-image: url(/images/tile_arcade__.jpg);
+    background-size: 160%;
+    background-position: center;
+    height: 600px;
+   
+  
+   
+}
+.section-5 .third-row .card{
+    background-image: url(/images/apple-card.jpg);
+    background-size: cover;
+    background-position: center;
+  height: 600px;
+   
+}
+.section-5 .third-row .swagger{
+    background-image: url(/images/tile_swagger__.jpg);
+    background-size: cover;
+    background-position: center;
+  height: 600px;
+   
+}
+
+
+
+
+
+
+
+
+.section-5 .third-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ width: 100%;
+ gap: 10px;
+}
+
+
+footer{
+    background-color:#f5f5f7;
+}
+
+.footer-head{
+    display: grid;
+    grid-auto-flow: row;
+   justify-content: center;
+   padding-left: 210px;
+   padding-right:200px ;
+   grid-gap: 10px;
+   padding-bottom: 30px;
+   border-bottom: solid 1px rgb(121, 117, 117) ;
+    color:#858589;
+    font-size: 13px;
+    padding-top: 12px;
+    
+}
+
+.footer-lists{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 30px;
+    padding-top: 20px; 
+    color:#858589;
+    font-size: 13px;
+    
+
+}
+.footer-lists h3{
+    color: rgb(90, 88, 88);
+    font-size: 13px;
+}
+.footer-lists li{
+   list-style: none;
+}
+footer .apple-shop{
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 10px;
+    
+}
+footer .shop-learn{
+   display: grid;
+   
+}
+
+    
+
+footer .services-second-row{
+    display: grid;
+    gap: 10px;
+}
+.services-two-rows{
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 20px;
+}
+.services-first-row{
+    display: grid;
+    grid-gap: 10px;
+
+}
+.apple-store-row{
+    display: grid;
+    grid-gap: 10px;
+    padding-top:12px;
+}
+
+
+
+footer .third-parts{
+    display: grid;
+    gap: 10px;
+    
+    
+}
+footer .business{
+    display: grid;
+    
+}   
+footer .education{
+    display: grid;
+}
+
+footer .healthcare{
+    display: grid;
+}
+footer .government{
+    display: grid;
+}
+.apple-equity{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+  
+}
+
+footer .apple-values{
+    display: grid;
+    gap: 5px;
+}
+footer .about-apple{
+    display: grid;
+    gap: 5px;
+}
+.bottom-line{
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 200px;
+    color:#858589;
+    font-size: 13px;
+}
+.paragraph-bottom{
+    padding-bottom: 6px;
+    padding-left: 200px;
+    border-bottom: 1px rgb(121, 117, 117) solid ;
+    color:#858589;
+    font-size: 13px;
+}
+footer .paragraph-bottom a{
+
+text-decoration: none;
+    color:#1673d0 ;
+   
+}
+footer .bottom-line li{
+    list-style: none;
+    font-size: 12px;
+}
+footer .bottom-line .privacy{
+    border-right: 1px solid black;
+    
+}
